@@ -36,4 +36,10 @@
          android:summary="@string/clock_style_category_summary"
          android:fragment="com.nitrogen.settings.fragments.ClockSettings" />
 
+     <Preference
+         android:key="batterybar_settings"
+         android:title="@string/battery_bar_title"
+         android:summary="@string/battery_bar_summary"
+         android:fragment="com.nitrogen.settings.fragments.BatterybarSettings" />
+
 </PreferenceScreen>
